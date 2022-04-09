@@ -1,2 +1,7 @@
+#Modules and dependencies
 node_modules/
+
 .DS_Store
+
+#dotenv enviroment variable file
+.env
