@@ -16,3 +16,5 @@ Level 1: Los datos son almacenados en texto plano en la base de datos como usern
 Level 2: Las contraseñas ahora son encryptadas mediante la dependencia de "mongoose encryption". El cifrado se realiza mediante AES-256-CBC con un vector de inicialización único y aleatorio para cada operación. La autenticación se realiza mediante HMAC-SHA-512. 
 
 ![alt text](https://github.com/Eligio16/security-authentication/blob/main/views/docs-img/Screenshot%202022-04-08%20195041.png)
+
+Level 2.1: usando variables de entorno "dotenv" para mantener las contraseñas segura en archivos externos.
