@@ -2,6 +2,7 @@
 const express = require('express');
 const ejs = require('ejs');
 const mongoose = require('mongoose');
+const encrypt = require('mongoose-encryption');
 
 //Definiendo app express
 const app = express();
@@ -20,10 +21,14 @@ async function main() {
 }
 
 //Definiendo esquema
-const userSchema = {
+const userSchema = new mongoose.Schema({
     email: String,
     password: String
-};
+});
+
+//Encryp
+const secret = 'thisisourlittlesecret';
+userSchema.plugin(encrypt, { secret: secret, encryptedFields: ['password'] });
 
 //Definiendo Modelo
 const User = mongoose.model('User', userSchema);
