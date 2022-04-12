@@ -18,3 +18,7 @@ Level 2: Las contraseñas ahora son encryptadas mediante la dependencia de "mong
 ![alt text](https://github.com/Eligio16/security-authentication/blob/main/views/docs-img/Screenshot%202022-04-08%20195041.png)
 
 Level 2.1: usando variables de entorno "dotenv" para mantener las contraseñas segura en archivos externos.
+
+Level 3: se añade funciones hash usando npm MD5 para almacenar las contraseñas encriptadas en la base de datos.
+
+Level 4: se añade "Salt rounds" para incrementar aun más el nivel de seguridad. Se utiliza el paquete bcrypt de npm que hace mucho más potente la seguridad del hash.
