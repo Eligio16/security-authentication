@@ -27,3 +27,9 @@ Level 5: Se actualizan los métodos de almacenamiento implementando coockies y a
 Passport es un middleware de autenticación para Node.js. Está diseñado para servir a un propósito singular: autenticar solicitudes. Como ventajas ofrece una fácil integración y una variedad de formas de inicio de sesión, además de cifrados robustos como se puede ver en la siguiente imagen.
 
 ![alt text](https://github.com/Eligio16/security-authentication/blob/main/views/docs-img/Screenshot%202022-04-13%20153509.png)
+
+Level 6: se añade Open Authorisation, es un estándar abierto para la autorización basada en tokens. Como por ejemplo login usando facebook o gmail.
+
+![alt text](https://github.com/Eligio16/security-authentication/blob/main/views/docs-img/Screenshot%202022-04-14%20104522.png)
+
+
