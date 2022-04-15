@@ -5,7 +5,7 @@ Se toma en cuenta las medidas seguridad para mantener la integridad de los datos
 
 ![alt text](https://github.com/Eligio16/security-authentication/blob/main/views/docs-img/Screenshot%202022-04-08%20150846.png)
 
-Se utiliza el método GET para el direccionamiento, y se reutiliza la interfaz mediante plantillas de EJS (EJS Templating).
+Se utiliza el método GET para el direccionamiento entre páginas, el método POST para recibir los datos ingresados en los forms (Inputs) y se reutiliza la interfaz CSS mediante plantillas de EJS (EJS Templating). 
 
 Para la base de datos se utiliza MongoDB y se establece una conexión local. Contiene un esquema para almacenar los usuarios. Una vez almacenados se ven de la siguiente manera:
 
@@ -28,7 +28,7 @@ Passport es un middleware de autenticación para Node.js. Está diseñado para s
 
 ![alt text](https://github.com/Eligio16/security-authentication/blob/main/views/docs-img/Screenshot%202022-04-13%20153509.png)
 
-Level 6: se añade Open Authorisation, es un estándar abierto para la autorización basada en tokens. Como por ejemplo login usando facebook o gmail.
+Level 6: se añade Open Authorisation, es un estándar abierto para la autorización basada en tokens. Por ejemplo inicio de sesion utilizando terceros como Facebook o Gmail.
 
 ![alt text](https://github.com/Eligio16/security-authentication/blob/main/views/docs-img/Screenshot%202022-04-14%20104522.png)
 
